@@ -82,6 +82,28 @@ How to run .js program ?
 
 
 
+  To install live-server
+  
+  
+  a. install node.js in system
+  
+  b. verify
+  
+    > node -v
+    > npm  -v
+    
+  c. install live-server
+  
+    > npm i live-server -g , on mac use 'sudo' prefix
+    
+    
+  d. on project directory
+  
+   > live-server --port=8181
+     
+  --------------------------------    
+
+
 
 
 
