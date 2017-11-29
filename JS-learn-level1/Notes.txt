@@ -68,15 +68,15 @@ How to run .js program ?
 
   1. data-types
   2. execution-context / scope
-  
   3. FP concepts
   4. closures
-  5. inheritance using prototypes
-  6. OO concepts
-  7. ES6/Es7 Features ( syntax / api level)
-  8. JS module standards & loaders
-  9. Async Programming
-  10. Concurrency model using Event-Loop
+  5. 'this' / context's owner keyword
+  6. inheritance using prototypes
+  7. OO concepts
+  8. ES6/Es7 Features ( syntax / api level)
+  9. JS module standards & loaders
+  10. Async Programming
+  11. Concurrency model using Event-Loop
 
   ------------------------------------------------------
 
