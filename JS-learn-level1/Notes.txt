@@ -1,0 +1,86 @@
+
+
+JS
+
+--> scripting lang for web-pages in browser-envi
++
+--> server-side lang on Node.js
+--> mobile native appln
+--> console based appln
+
+------------------------------------------------
+
+
+JS - good features
+
+--> Functional Programming ( FP ) lang
+--> OOP 
+
+--> dynamic typed
+--> closure support
+
+--> single-thread lang ( single-threaded process ) , but wen do cocurrent actions
+--> All IO operations Non-Blocking
+
+-------------------------------------------------
+
+
+.js-lang , is based on 'ECMAScript spec'
+
+
+latest : ECMAScript-2015 / ES6  
+
+       : ES7 ( last month )
+
+---------------------------------------------------
+
+
+How to run .js program ?
+
+  --> using js-runtime / js-engine
+
+
+  browser-envi
+  -----------
+
+    a. chrome  -> v8 ( c++ )
+    b. firefox -> rhino(java)
+    c. IE/Edge -> chakkra
+    d. safari  -> Nitro
+    ..
+
+  other-envi
+  -----------
+
+    a. Node.js -> v8  ( focus )
+    b. JVM     -> rhino / nashorn
+    c. Apache CouchDB
+    d. MongoDB
+    e. Adobe
+    ...
+
+---------------------------------
+
+
+
+  JS-topics
+  ----------
+
+  1. data-types
+  2. execution-context / scope
+  3. FP concepts
+  4. closures
+  5. inheritance using prototypes
+  6. OO concepts
+  7. ES6/Es7 Features ( syntax / api level)
+  8. JS module standards & loaders
+  9. Async Programming
+  10. Concurrency model using Event-Loop
+
+  ------------------------------------------------------
+
+
+
+
+
+
