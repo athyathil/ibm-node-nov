@@ -68,6 +68,7 @@ How to run .js program ?
 
   1. data-types
   2. execution-context / scope
+  
   3. FP concepts
   4. closures
   5. inheritance using prototypes
