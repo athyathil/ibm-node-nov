@@ -1,0 +1,83 @@
+
+
+  web-app
+  -----------
+  
+  
+  server ( http )    <----------> client
+  
+  
+  
+  --------------------------------
+  
+  
+  we can better IO operation with streams
+  
+  
+    --> readable   e.g request
+    --> writable   e.g response
+    --> duplex     e.g socket
+    
+   -----------------------------------
+   
+   source                     destination
+    
+      - - - - - - - - - - - - 
+           ( pipe )
+    
+   ------------------------------------ 
+  
+  
+  
+  ref : https://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js
+  
+  
+  
+  
+ 
+  ----------------------------------------------
+  
+  
+   needs of complex web-applications 
+   
+   
+   --> good routing support
+   
+        --> by URL
+        --> by http-method
+        --> by params
+        --> by headers
+        
+   --> template support for dynamic HTML views
+   
+   --> error handling suppoert..
+   
+   --> filtering for security & session support..
+   
+   ....
+   
+   
+   --------------------------------------------
+   
+   
+   Node.js , Web Application F.Ws
+   
+   
+   ref : 
+   
+   
+        
+        
+        
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,21 @@
+{
+  "plugins": {
+    "outline": {
+      
+    },
+    "lint": {
+      
+    },
+    "node": {
+      
+    },
+    "node-extension": {
+      
+    }
+  },
+  "libs": [
+    "ecma5",
+    "ecma6"
+  ],
+  "ecmaVersion": 6
+}
