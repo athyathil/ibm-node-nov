@@ -1,0 +1,100 @@
+
+
+
+-> originally, 
+   .js-lang is not module based language from beginning
+  
+  ----------------------------------------------
+  
+  
+  problems with .js-development, 
+  without module-standards & loaders are
+  
+  --> global-naming collisions
+  		
+  	 soln:
+  	 	
+       using 'self-executable function' pattern
+       
+       --> to share any members of different modules, we use 'single-global-var'
+  
+  
+  --> loading dependency modules hierarchy is difficult
+  
+  --------------------------------------------------------
+  
+  Soln : using  module-standards & Loaders
+  
+  -----------------------------------------------------------
+  
+  
+  from third-parties
+  
+  --> AMD ( Async Module Definition )  
+  --> commonJS  ( 90% open-source javascript code available on this standard )
+  --> UMD
+  ....
+  
+  from ECMAScript spec  ( recently )
+  
+  --> ES6 Modules
+  
+  ---------------------------------------------------------
+  
+  
+  commonJS module-standard
+  ---------------------------
+  
+  --> every .js-file is a module by default
+  --> all variables & function in a .js-file are private to that module by default.
+  --> to abstract/export any member of module to other, we shud use 'module.exports'
+  --> to import/require any member from other module, we shud use 'require(moduleId)'
+  --> we can group related modules into packages using  description file 'package.json'
+  
+  
+  Node.js already implemented this  as default-module standard
+  
+  popular terms
+  -------------
+  commonJS module ==> Node-module
+  commonJS package ==> Node-package
+  
+  
+  but
+  
+  browser-envi didn't implement this standard
+  
+  ---------------------------------------------------
+  
+  
+  How to publish/install js-packages with others ?
+  
+  
+  using 'NPM' ( Node package Manager )
+  
+  ==> command-line tool
+  
+  
+  ==> used to publish js-packages to 'NPM repository'
+  ==> to install ' js-packages ' local to system ( local to project | globally )
+  ==> to manage application build-life cycle 
+  
+  
+  NPM tool runs on Node.js
+  
+  
+  alternative-tool for NPM
+  
+   ==> YARN , from Facebook
+  -------------------------------------------------
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
