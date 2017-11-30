@@ -1,0 +1,47 @@
+
+
+
+
+JS - concurrency model
+-----------------------
+
+
+
+
+
+  .js-lang is
+  
+  --> single-threaded lang, but we can do concurrent actions
+  --> all IO operations are Non-Blocking
+  
+  ----------------------------------------------------
+  
+  
+  
+  browser e.g chrome
+  
+    1. JS-runtime/engine ( v8 )  ==> based on ECMAScript spec
+    
+    		a. single-call-stack  --> to execute js-execution-context
+    		b. heap               --> free memory to hols objects
+    		
+    2. browser-Web-APIs ( e.g DOM,XHR,Timer,HTML5 APIs )  ==> w3c standards
+    
+    3. Event/Message/Callback Queue
+    
+    4. Event-Loop ( heart of browser )
+    
+    --------------------------------------------------------- 	
+    
+    ref : https://developer.mozilla.org/bm/docs/Web/JavaScript/EventLoop
+    ref : latentflip.com/loupe
+    
+    ------------------------------------------------------------
+    
+    	
+    		
+  
+  
+  
+  
+  
