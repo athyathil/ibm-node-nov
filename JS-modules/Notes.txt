@@ -89,6 +89,38 @@
   -------------------------------------------------
   
   
+   to run commonJS module standard .js code in browser,
+   we need browserify using any tools ( browserify,webpack,... )
+   
+  ----------------------------------------------- 
+  
+  
+  
+  
+  
+  ES module standard
+  -------------------
+  
+  
+  --> every .js-file is a module by default
+  --> all variables & function in a .js-file are private to that module by default.
+  --> to abstract/export any member of module to other, we shud use 'exports' keyword
+  --> to import/require any member from other module, we shud use 'import'
+  --> we can group related modules into packages using  description file 'package.json'
+  
+  
+  imp-note : No js-runtime implemented this module standard.
+  
+  then how to use this module standard?
+  
+  ==> shud convert to common-JS module standard to run Node.js 
+  ==> shud browserify it to run browser.
+  ------------------------------------------------
+  
+  
+  
+  
+  
   
   
   

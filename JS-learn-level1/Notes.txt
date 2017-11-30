@@ -71,9 +71,11 @@ How to run .js program ?
   3. FP concepts
   4. closures
   5. 'this' / context's owner keyword
+  
   6. inheritance using prototypes
   7. OO concepts
   8. ES6/Es7 Features ( syntax / api level)
+  
   9. JS module standards & loaders
   10. Async Programming
   11. Concurrency model using Event-Loop
