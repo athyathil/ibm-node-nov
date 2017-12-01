@@ -8,7 +8,7 @@ var morgan = require('morgan')
 let fs=require('fs');
 let app = express();
 
-//---------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------
 //
 // app.get("/", function(req, res) {
 // res.send("Hello from Express F.W");
@@ -47,13 +47,30 @@ let app = express();
 // });
 
 
-//app.use(logger('dev'));
+// app.use(logger('dev'));
 app.use(morgan());
 app.use(express.static('public'));  // built-in
 app.get("/todos", function(req, res) {
 	let todos = [ 'learn JS', 'Lern Node.js basics', "Learn Express" ];
-	res.json(todos);
+	if(req.query.limit>=0){
+		res.json(todos.slice(0,req.query.limit));	
+	}else{
+		res.json(todos);	
+	}
+	
 });
+app.get("/customers/:customer/accounts/:num", function(req, res) {
+	if(req.params.num != 1234){
+		res.status(404).json('No account Exists');
+	}else{
+		res.send(req.params.customer +" & "+req.params.num);	
+	}
+	
+});
+
+
+
+
 
 
 app.listen(3000, function() {

@@ -10,3 +10,24 @@
   
   ---------------------------------------------------
   
+  
+  
+  query param
+  
+  
+  resource?param=121212
+  
+   ==> to filter the uresources
+   
+   
+  path param 
+  
+  resource/{param}/path/
+  
+  e.g custokmers/naga/accounts/{123}
+  
+  
+  ==> to indenfiy resources
+  
+  
+  -----------------------------------------------------
