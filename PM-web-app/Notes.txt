@@ -1,0 +1,71 @@
+
+
+level-1 : 
+-------------
+
+
+ PM ( Product Management ) for ShopIT
+ --------------------------------------
+ Model(s)
+     a. Product  ( 1 )
+        - id
+        - name
+        - price
+        - makeDate
+        - description
+     b. Review  ( M )
+        - author
+        - stars
+        - comment
+ --------------------------------------------      
+ database ==> RDBMS or NoQL
+
+          ==> MySQL or MongoDB
+---------------------------------------------
+Server Appln:
+
+   Node.js with Express F.W
+ --------------------------------------------  
+
+
+
+
+Application
+
+   -> Object model
+   
+NoSQL
+
+   -> Document model   
+   
+ -------------------------------------------  
+   
+   ODM ( Object Document Mapping )
+   
+   
+   to implemement ODN in Node.js based appln , we have many F.Ws
+   
+   	e.g
+     ==> mongoose
+  
+ -----------------------------------------------     
+   
+   
+   
+   
+   
+
+
+
+           
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+  
+     
+         
